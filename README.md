@@ -91,4 +91,28 @@ Several causes combine: rapid urbanisation and building on floodplains and hills
 SL-FloodWatch collects simple readings from trained community volunteers or low-cost sensors, validates them, calculates how fast water is rising, classifies the risk using clear rules, and sends a colour-coded SMS to the registered residents of the affected ward. Because it relies on SMS, it works on basic phones without internet access.
 ## 1.2 Background 
 On 14 August 2017 heavy rain triggered a mudslide and floods in the Western Area that killed more than one thousand people and destroyed homes and infrastructure (World Bank, GFDRR and Government of Sierra Leone, 2017). Flooding also increases waterborne diseases such as cholera. The Sendai Framework for Disaster Risk Reduction highlights multi-hazard early warning systems as a priority for reducing disaster losses (UNDRR, 2015), and the Sierra Leone National Innovation and Digital Strategy encourages digital solutions for national development (DSTI, 2019). Mobile phone use is widespread, which makes SMS an inclusive channel for public warnings.
+
+## 1.3 Community Impact 
+• Problem being solved: late, general and inaccessible flood warnings in Freetown’s vulnerable wards. 
+• Expected impact: more time for families to move to safety and protect belongings, fewer injuries and deaths, better-prepared ward leaders and faster, better-targeted response by NDMA and the city council. 
+• Beneficiaries: residents of flood-prone wards (primary), community volunteers, health workers, local government and disaster agencies (secondary).
+ • Long-term sustainability: the system has very low running costs (SMS and a small server), is built on open standards so it is not locked to one vendor, can be handed over to NDMA or the city council, and is maintained by trained local volunteers and student contributors (see Sections 1.8 and 1.9).
+
+## 1.4 Proposed Solution SL-FloodWatch is organised into five modules: 
+(1) Data Collection receives rainfall and water-level readings; 
+
+(2) Validation rejects impossible values and requests a resend; 
+
+(3) Risk Assessment calculates the rise rate and classifies risk as GREEN, YELLOW, ORANGE or RED; 
+
+(4) Alert Dissemination composes and sends SMS messages to subscribers and authorities; and 
+
+(5) Records and Reporting logs every reading and produces a cycle summary. The monitoring cycle repeats automatically, for example every hour during the rainy season.
+
+##1.5 Computational Thinking Process
+
+
+
+
+
  
